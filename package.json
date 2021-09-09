@@ -133,7 +133,7 @@
     "parse-svg-path": "^0.1.2",
     "polybooljs": "^1.2.0",
     "probe-image-size": "^7.2.1",
-    "regl": "^2.1.0",
+    "regl": "git://github.com/archmoj/regl.git#6af9d5c79338fe8e6a0de7795316b16badfafaf3",
     "regl-error2d": "^2.0.12",
     "regl-line2d": "^3.1.2",
     "regl-scatter2d": "^3.2.8",
