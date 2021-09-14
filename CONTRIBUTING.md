@@ -228,7 +228,7 @@ npm run test-jasmine -- --info
 #### With docker:
 > If you prefer using docker each time you need to
 ```sh
-docker run -it -v "$(pwd)":/plotly.js circleci/python:3.8.9 bash
+docker run -it -v "$(pwd)":/plotly.js cimg/python:3.8.9 bash
 # then inside the docker
 cd plotly.js
 sudo bash .circleci/env_image.sh
@@ -273,7 +273,7 @@ If you added new mocks to test/image/mocks folder, to generate draft baselines r
 python3 test/image/make_baseline.py = mockFilename1 mockFilename2
 ```
 Then commit the new baselines and push.
-Please note that image pixel comparison tests run using circleci/python:3.8.9 docker container.
+Please note that image pixel comparison tests run using cimg/python:3.8.9 docker container.
 Therefore the final baselines may need updates.
 This could simply be done by downloading the `baselines.tar` stored in the `ARTIFACTS` tab of `test-baselines` job (if the test failed).
 
